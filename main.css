@@ -92,9 +92,11 @@ main {
 }
 
 .box {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
+    /*background-color: green;*/
     border: solid 1px #000;
+    margin: 10px;
 }
 
 
