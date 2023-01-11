@@ -50,11 +50,13 @@ main {
     border: 3.5px solid #fff;
     border-radius: 50%;
     margin: 1.8em;
+    cursor: pointer;
 }
 
 .txt-about {
     margin-left: 1.8em;
     margin-bottom: 5em;
+    cursor: pointer;
 }
 
 .txt-about h1 {
@@ -89,6 +91,9 @@ main {
     padding-left: 1.8em;
     font-size: 16px;
     cursor: pointer;
+}
+.opt-description ul li:hover{
+    color: #fff;
 }
 
 .box {
