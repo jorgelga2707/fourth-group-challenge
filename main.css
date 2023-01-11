@@ -11,6 +11,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0d1323;
+    font-family: 'Rubik', sans-serif;
 }
 
 main {
@@ -92,7 +94,6 @@ main {
 .box {
     width: 10em;
     height: 10em;
-    background-color: green;
     border: solid 1px #000;
 }
 
