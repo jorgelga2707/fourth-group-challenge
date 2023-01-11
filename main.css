@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    display: flex;
+}
+
+.description {
+    width: 15em;
+    height: 20em;
+    background-color: red;
+}
+
+
+.box {
+    width: 10em;
+    height: 10em;
+    background-color: green;
+    border: solid 1px #000;
+}
