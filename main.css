@@ -11,7 +11,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
 }
 
 main {
@@ -90,6 +89,9 @@ main {
     cursor: pointer;
 }
 
-.opt-description ul li:active {
-    color: #fff;
+.box {
+    width: 10em;
+    height: 10em;
+    background-color: green;
+    border: solid 1px #000;
 }
