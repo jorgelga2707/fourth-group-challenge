@@ -38,30 +38,29 @@ main {
     font-family: 'Rubik', sans-serif;
 }
 
-.txt-about {
-    margin-left: 1.8em;
-    margin-bottom: 5em;
-}
-
 .txt-description {
     width: 100%;
     border-radius: 15px;
     background: hsl(246, 80%, 60%);
 }
 
-.description img {
+.txt-description img {
     width: 5rem;
     border: 3.5px solid #fff;
     border-radius: 50%;
     margin: 1.8em;
 }
 
+.txt-about {
+    margin-left: 1.8em;
+    margin-bottom: 5em;
+}
 
-.description h1 {
+.txt-about h1 {
     font-weight: 300;
 }
 
-.description p {
+.txt-about p {
     font-size: 15px;
     font-weight: 300;
     color: hsl(236, 100%, 87%);
@@ -93,14 +92,4 @@ main {
 
 .opt-description ul li:active {
     color: #fff;
-}
-
-.box {
-    width: 12em;
-    height: 12em;
-    background-color: green;
-    border: solid 1px #000;
-    display: flex;
-    margin: 13px;
-    border-radius: 15px;
 }
